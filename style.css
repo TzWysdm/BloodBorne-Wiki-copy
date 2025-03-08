@@ -1,0 +1,167 @@
+body{
+    background-image: url(Images/thumb-1920-1305260.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    font-family: rubik, helvetica, arial, sans-serif;
+    font-size: 15px;
+}
+p{
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+h1{
+    color: #e6e6e6;
+    font-weight: 100;
+    
+}
+h2{
+    text-align: center;
+    color: #e6e6e6;
+    border-bottom: 1px solid #3a3a3a;
+    padding-bottom: 6px;
+}
+strong{
+    color: #e6e6e6
+}
+
+.underlined{
+    color: #6c93b1 
+}
+
+.intro{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro2{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodycenter{
+    width: max-content;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 24px 36px;
+}
+
+.intro-p{
+    border-top: 4px solid silver;
+    border-bottom: 4px solid silver;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.about{
+    display: flex;
+}
+
+.ps4-about{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.ludwig1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    color: #6c93b1;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    body{
+        background-image: url(Images/thumb-1920-1305260.jpeg);
+        background-position: center;
+        background-attachment: fixed;
+        font-family: rubik, helvetica, arial, sans-serif;
+        font-size: 10px;
+    }
+    p{
+        color: #e6e6e6;
+        line-height: 1.6;
+    }
+    h1{
+        color: #e6e6e6;
+        font-weight: 100;
+        
+    }
+    h2{
+        text-align: center;
+        color: #e6e6e6;
+        border-bottom: 1px solid #3a3a3a;
+        padding-bottom: 6px;
+    }
+    strong{
+        color: #e6e6e6
+    }
+    
+    .underlined{
+        color: #6c93b1 
+    }
+    
+    .intro{
+        width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .intro2{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .bodycenter{
+        width: max-content;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 24px 36px;
+    }
+    
+    .intro-p{
+        border-top: 4px solid silver;
+        border-bottom: 4px solid silver;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+    }
+    
+    .about{
+        display: flex;
+    }
+    
+    .ps4-about{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .ludwig1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        color: #6c93b1;
+        text-align: center;
+    }
+}

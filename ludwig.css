@@ -1,0 +1,64 @@
+body{
+    background-image: url(Images/thumb-1920-1305260.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    font-family: rubik, helvetica, arial, sans-serif;
+    font-size: 15px;
+}
+
+p{
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+
+h1{
+    color: #e6e6e6;
+    font-weight: 100;
+}
+
+h2{
+    color: #e6e6e6;
+    border-bottom: 1px solid #3a3a3a;
+    padding-bottom: 6px;
+}
+
+strong{
+    color: #e6e6e6
+}
+
+i{
+    color: #e6e6e6;
+}
+
+
+.bodycenter{
+    width: max-content;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 24px 36px;
+}
+
+.intro{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.subintro{
+    background-color: #181818;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.ludwig-img{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+}
+
