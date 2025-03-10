@@ -35,16 +35,24 @@ ul{
     line-height: 2;
 }
 
+ol{
+    color: #e6e6e6;
+    line-height: 2;
+}
+
 button{
     width: 100px;
     height: 30px;
     transition: 300ms;
-    position: sticky;
     top: 5px;
 }
 
 button:hover{
     opacity: 30%;
+}
+
+a{
+    color: #e6e6e6
 }
 
 
@@ -60,7 +68,6 @@ button:hover{
 
 .intro{
     display: flex;
-    padding-bottom: 10px;
 }
 
 .subintro{
@@ -77,6 +84,11 @@ button:hover{
     width: 400px;
     display: block;
     margin-left: auto;
+}
+
+.box1{
+    border: 3px solid #3a3a3a;
+    margin-right:82%;
 }
 
 .box2{
