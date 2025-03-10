@@ -23,11 +23,28 @@ h2{
 }
 
 strong{
-    color: #e6e6e6
+    color: #6c93b1 
 }
 
 i{
     color: #e6e6e6;
+}
+
+ul{
+    color: #e6e6e6;
+    line-height: 2;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    transition: 300ms;
+    position: sticky;
+    top: 5px;
+}
+
+button:hover{
+    opacity: 30%;
 }
 
 
@@ -60,5 +77,15 @@ i{
     width: 400px;
     display: block;
     margin-left: auto;
+}
+
+.box2{
+    display: flex;
+}
+
+.box2_img{
+    width: 400px;
+    padding-left: 30px;
+    padding-top: px;
 }
 
