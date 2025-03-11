@@ -12,6 +12,6 @@
 //}
 
 let str = "ASAP FRONTEND";
-for (let i = 0; i < str.length; i++){
+for (let i = 0; i <= str.length; i++){
     console.log(str[i])
 }

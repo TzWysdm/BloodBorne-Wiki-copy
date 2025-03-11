@@ -40,17 +40,6 @@ ol{
     line-height: 2;
 }
 
-button{
-    width: 100px;
-    height: 30px;
-    transition: 300ms;
-    top: 5px;
-}
-
-button:hover{
-    opacity: 30%;
-}
-
 a{
     color: #e6e6e6
 }

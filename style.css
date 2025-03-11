@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     font-family: rubik, helvetica, arial, sans-serif;
     font-size: 15px;
+    margin: 0%;
 }
 p{
     color: #e6e6e6;
@@ -22,6 +23,27 @@ h2{
 }
 strong{
     color: #e6e6e6
+}
+
+button{
+    background: black;
+    border: 0;
+    color: #6c93b1;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+button:hover{
+    text-decoration: underline;
+    color: #6c93b1;
+}
+
+.header{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    border: 10px solid #000000;
+    background-color: black;
 }
 
 .underlined{
@@ -72,13 +94,44 @@ strong{
     padding-top: 10px;
 }
 
-.ludwig1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    color: #6c93b1;
+.Contenido_principal{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+}
+
+.ludwig1{
+    width: 140px;
+    padding: 20px;
+    margin-right: 20px ;
+    margin-left: 20px;
+    display: flex;
+}
+
+.Arma-img{
+    width: 130px;
+    padding: 20px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Atuendos-img{
+    width: 150px;
+    padding: 20px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hub_allies{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #3a3a3a;
 }
 
 @media (max-width: 480px) {
@@ -154,14 +207,5 @@ strong{
     .ps4-about{
         padding-left: 20px;
         padding-top: 10px;
-    }
-    
-    .ludwig1{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-        color: #6c93b1;
-        text-align: center;
     }
 }
