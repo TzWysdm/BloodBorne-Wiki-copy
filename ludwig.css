@@ -53,9 +53,11 @@ button{
     font-size: 15px;
 }
 
-button:hover{
-    text-decoration: underline;
-    color: #6c93b1;
+.header button:hover{
+    transition: 300ms;
+    background-color: #ffffff33;
+    text-decoration: solid;
+    cursor: pointer;
 }
 
 .header{
@@ -93,6 +95,7 @@ button:hover{
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 24px 36px;
+    border: 1px solid #3a3a3a;
 }
 
 .intro{

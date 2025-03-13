@@ -35,8 +35,10 @@ button{
 
 button:hover{
     text-decoration: underline;
-    color: #6c93b1;
+    color: #adc2d3fd;
+    cursor: pointer;
 }
+
 
 .header{
     display: flex;
@@ -54,6 +56,7 @@ button:hover{
     transition: 300ms;
     background-color: #ffffff33;
     text-decoration: solid;
+    cursor: pointer;
 }
 
 .header p{
@@ -62,10 +65,8 @@ button:hover{
     margin: 5px;
     padding-right: 70px;
     margin-left: 70px;
-    margin-right: 97px;
+    margin-right: 96px;
 }
-
-
 
 .underlined{
     color: #6c93b1 
@@ -93,6 +94,7 @@ button:hover{
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 24px 36px;
+    border: 1px solid #3a3a3a;
 }
 
 .intro-p{
@@ -141,8 +143,22 @@ button:hover{
     width: 150px;
     padding: 20px;
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Media-box{
+    display: table;
+}
+
+.Media-box img{
+    width: 400px;
+    padding: 5px;
+}
+
+.Media-box video{
+    width: 400px;
+    padding: 5px;
 }
 
 .hub_allies{

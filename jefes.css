@@ -1,0 +1,110 @@
+body{
+    background-image: url(Images/thumb-1920-1305260.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    font-family: rubik, helvetica, arial, sans-serif;
+    font-size: 15px;
+    margin: 0%;
+}
+p{
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+h1{
+    color: #e6e6e6;
+    font-weight: 100;
+    
+}
+h2{
+    text-align: center;
+    color: #e6e6e6;
+    border-bottom: 1px solid #3a3a3a;
+    padding-bottom: 6px;
+}
+strong{
+    color: #e6e6e6
+}
+
+button{
+    background: black;
+    border: 0;
+    color: #6c93b1;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+button:hover{
+    text-decoration: underline;
+    color: #adc2d3fd;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    border: 2px solid #3a3a3a;
+    background-color: black;
+}
+
+.header button{
+    transition: 300ms;
+}
+
+.header button:hover{
+    transition: 300ms;
+    background-color: #ffffff33;
+    text-decoration: solid;
+}
+
+.header p{
+    font-size: large;
+    padding-left: 70px;
+    margin: 5px;
+    padding-right: 70px;
+    margin-left: 70px;
+    margin-right: 99px;
+}
+
+.underlined{
+    color: #6c93b1 
+}
+
+.bodycenter{
+    width: max-content;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 24px 36px;
+    border: 1px solid #3a3a3a;
+}
+
+.box-jefes{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.box-jefes button{
+    margin-top: 10px;
+}
+
+.ludwig-img{
+    width: 140px;
+    display:flex;
+}
+
+.maria-img{
+    width: 140px;
+    height: 130px;
+    display:flex;
+}
+
+.hijo-img{
+    width: 140px;
+    height: 130px;
+    display:flex;
+}
