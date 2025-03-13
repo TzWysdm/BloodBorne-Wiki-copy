@@ -42,9 +42,30 @@ button:hover{
     display: flex;
     position: sticky;
     top: 0px;
-    border: 10px solid #000000;
+    border: 2px solid #3a3a3a;
     background-color: black;
 }
+
+.header button{
+    transition: 300ms;
+}
+
+.header button:hover{
+    transition: 300ms;
+    background-color: #ffffff33;
+    text-decoration: solid;
+}
+
+.header p{
+    font-size: large;
+    padding-left: 70px;
+    margin: 5px;
+    padding-right: 70px;
+    margin-left: 70px;
+    margin-right: 97px;
+}
+
+
 
 .underlined{
     color: #6c93b1 
